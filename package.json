@@ -1,0 +1,16 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "Challenge for backend position",
+  "author": "Uriel Curiel <urielcuriel@outlook.com>",
+  "main": "index.js",
+  "license": "MIT",
+   "type": "module",
+   "scripts": {
+     "test": "mocha index.test.js",
+     "start": "node ./"
+   },
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  }
+}
