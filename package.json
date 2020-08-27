@@ -1,16 +1,22 @@
 {
   "name": "backend-challenge",
   "version": "1.0.0",
-  "description": "Challenge for backend position",
+  "description": "Challenge for backend developer position",
   "author": "Uriel Curiel <urielcuriel@outlook.com>",
   "main": "index.js",
   "license": "MIT",
-   "type": "module",
-   "scripts": {
-     "test": "mocha index.test.js",
-     "start": "node ./"
-   },
+  "type": "module",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "start": "node ./"
+  },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "mocha": "^8.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
